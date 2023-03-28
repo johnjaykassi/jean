@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <div class="container">
+        <div class="login page">
+            <div class="heading">Login</div>
+            <form action="#">
+                <div class="entryarea">
+                    <input type="text" required>
+                    <div class="labelline">Entrez votre nom</div>
+                </div>
+                <div class="entryarea">
+                    <input type="password" required>
+                    <div class="labelline">Entrez votre mot de passe</div>
+                </div>
+                <a href="#">Mot de passe oublié</a>
+                <input type="submit" value="Login" id="btn">
+                <div class="switch">
+                    <span>vous n'avez pas de compte</span>
+                    <label for="check">Se connecter</label>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="Signup page">
+            <div class="heading">Signup</div>
+            <form action="#">
+                <div class="entryarea">
+                    <input type="text" required>
+                    <div class="labelline">Entrez votre nom</div>
+                </div>
+                <div class="entryarea">
+                    <input type="email" required>
+                    <div class="labelline">Entrez votre email</div>
+                </div>
+                <div class="entryarea">
+                    <input type="password" required>
+                    <div class="labelline">Entrez votre mot de passe</div>
+                </div>
+                <input type="submit" value="Signup" id="btn">
+                <div class="switch">
+                    <span>vous avez deja un compte</span>
+                    <label for="check">S'inscrire</label>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
